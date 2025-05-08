@@ -17,10 +17,10 @@ Remaps are the same too, I use dvorak btw.
 
 ## Future Plans
 
-- [ ] Configure Fugitive with;
-    - [ ] <leader>a (?) git add .
-    - [ ] <leader>c (?) git commit -m "
-    - [ ] <leader>p (?) git push
+- [ ] Configure Fugitive with keybindings:
+    - [ ] a (?) for git add .
+    - [ ] c (?) for git commit -m "
+    - [ ] p (?) for git push
 
 - [ ] Add LSPs
     - [ ] Python
