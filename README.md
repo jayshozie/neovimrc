@@ -5,4 +5,7 @@ Remaps are the same too, I use dvorak btw.
 
 ## Plugins
 
-Will update after initial commit.
+Fugitive
+Telescope
+TreeSitter
+Undotree
