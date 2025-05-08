@@ -3,14 +3,16 @@
 This is my first (working) neovim rc. It's built from The Primeagen's rc.
 Remaps are the same too, I use dvorak btw.
 
-## Plugin Manager -> Lazy
+## Plugin Manager
 
-## Plugins
+- Lazy
 
-Fugitive
-Telescope
-TreeSitter
-Undotree
+### Plugins Used
+
+- [x] Fugitive
+- [x] Telescope
+- [x] TreeSitter
+- [x] Undotree
 
 ## Future Plans
 
