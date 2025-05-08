@@ -8,6 +8,9 @@ Remaps are the same too, I use dvorak btw.
 
 - Plugin Manager: Lazy
 
+- Why no tmux? I'm on WSL:Ubuntu right now. I didn't want to get that deep.
+    May happen in the future.
+
 ### Plugins
 
 - Fugitive
