@@ -9,10 +9,10 @@ Remaps are the same too, I use dvorak btw.
 
 ### Plugins Used
 
-- [x] Fugitive
-- [x] Telescope
-- [x] TreeSitter
-- [x] Undotree
+- Fugitive
+- Telescope
+- TreeSitter
+- Undotree
 
 ## Future Plans
 
