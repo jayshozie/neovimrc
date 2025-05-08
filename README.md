@@ -1,6 +1,7 @@
 # jayshozie's NVIM RC
 
 This is my first (working) neovim rc. It's built from The Primeagen's rc.
+
 Remaps are the same too, I use dvorak btw.
 
 ## Info
@@ -15,6 +16,11 @@ Remaps are the same too, I use dvorak btw.
 - Undotree
 
 ## Future Plans
+
+- [ ] Configure Fugitive with;
+    - [ ] <leader>a (?) git add .
+    - [ ] <leader>c (?) git commit -m "
+    - [ ] <leader>p (?) git push
 
 - [ ] Add LSPs
     - [ ] Python
