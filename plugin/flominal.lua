@@ -18,7 +18,7 @@ local function create_floating_window(opts)
 
     -- Create a buffer
     local buf = nil
-    -- `TODO`: Line 22 gives out Invalid `buffer` error at every instance
+    -- TODO: Line 22 gives out Invalid `buffer` error at every instance
     if vim.api.nvim_buf_is_valid(opts.buf) then
         buf = opts.buf
     else
