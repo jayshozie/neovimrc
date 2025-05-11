@@ -12,27 +12,48 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- vim.keymap.set("n", "<leader>vwm", function()
--- require("vim-with-me").StartVimWithMe()
--- end)
--- vim.keymap.set("n", "<leader>svwm", function()
--- require("vim-with-me").StopVimWithMe()
--- end)
+-- Size of splits
+vim.keymap.set("n", "<M-,>", "<c-w>5>")
+vim.keymap.set("n", "<M-.>", "<c-w>5<")
+vim.keymap.set("n", "<M-t>", "<c-w>5+")
+vim.keymap.set("n", "<M-s>", "<c-w>5-")
+
+-- Highlight when yanking
+vim.api.nvim_create_autocmd('TextYankPost', {
+    desc = 'Hightligt when yanking (copying) text',
+    group = vim.api.nvim_create_augroup('kicstart-hightlight-yank', { clear = true }),
+    callback  = function()
+        vim.highlight.on_yank()
+    end,
+})
+
+-- Custom Terminal
+vim.api.nvim_create_autocmd('TermOpen', {
+    group = vim.api.nvim_create_augroup('custom-term-open', { clear = true }),
+    callback = function()
+        vim.opt.number = false
+        vim.opt.relativenumber = false
+    end,
+})
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>")
+vim.keymap.set("n", "<leader>nt", function()
+    vim.cmd.vnew()
+    vim.cmd.term()
+    vim.cmd.wincmd("J")
+    vim.api.nvim_win_set_height(0, 15)
+end)
 
 -- greatest remap ever
-vim.keymap.set("x", "<leader>p", [["_dP]])
+-- vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- next greatest remap ever : asbjornHaland
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
-vim.keymap.set("n", "<leader>Y", [["+Y]])
+-- vim.keymap.set({"n", "v"}, "<leader>y", [["+y])
+-- vim.keymap.set("n", "<leader>Y", [["+Y]])
 
-vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
--- This is going to get me cancelled
--- vim.keymap.set("i", "<C-c>", "<Esc>")
-
-vim.keymap.set("n", "Q", "<nop>")
 -- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
@@ -49,9 +70,8 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 --     "oif err != nil {<CR>}<Esc>Oreturn err<Esc>"
 -- )
 
-vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>");
-vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
+vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.config/nvim/<CR>");
 
---vim.keymap.set("n", "<leader><leader>", function()
---    vim.cmd("so")
---end)
+vim.keymap.set("n", "<leader><leader>", function()
+    vim.cmd("so")
+end)
