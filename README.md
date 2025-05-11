@@ -19,13 +19,11 @@ Most remaps are the same too, I use dvorak btw.
 - Mason
 - LSPs
 - Trouble
+- Flominal
 
 ## Future Plans
 
-- [ ] Configure Fugitive with keybindings:
-    - [ ] a (?) for git add .
-    - [ ] c (?) for git commit -m "
-    - [ ] p (?) for git push
+- [ ] Fix some issues with Fugitive
 
 - [x] Add LSPs
     - [x] Python
