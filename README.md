@@ -1,15 +1,12 @@
-# jayshozie's NVIM RC
+# jayshozie's Neovim Config
 
-This is my first (working) neovim rc. It's built from The Primeagen's rc.
+This is my first (working) neovim config. It's built from The Primeagen's.
 
-Remaps are the same too, I use dvorak btw.
+Most remaps are the same too, I use dvorak btw.
 
 ## Info
 
 - Plugin Manager: Lazy
-
-- Why no tmux? I'm on WSL:Ubuntu right now. I didn't want to get that deep.
-    May happen in the future.
 
 ### Plugins
 
@@ -17,6 +14,11 @@ Remaps are the same too, I use dvorak btw.
 - Telescope
 - TreeSitter
 - Undotree
+- Rabbit
+- Indent Blankline
+- Mason
+- LSPs
+- Trouble
 
 ## Future Plans
 
@@ -25,8 +27,8 @@ Remaps are the same too, I use dvorak btw.
     - [ ] c (?) for git commit -m "
     - [ ] p (?) for git push
 
-- [ ] Add LSPs
-    - [ ] Python
-    - [ ] C/C++
+- [x] Add LSPs
+    - [x] Python
+    - [x] C/C++
 
 - [ ] Add Harpoon, Vim-Be-Good

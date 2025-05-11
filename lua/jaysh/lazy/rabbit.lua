@@ -1,3 +1,5 @@
+-- Temporary until Harpoon 2 is released.
+
 return {
 	-- Optional, if you want icons for renamed files
 	{
