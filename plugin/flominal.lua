@@ -54,5 +54,5 @@ local toggle_terminal = function()
     state.floating = create_floating_window()
 end
 
-vim.api.nvim_create_user_command("Floaminal", toggle_terminal, {})
-vim.keymap.set({"n", "t"}, "<leader>tt", toggle_terminal, { desc = "Toggle Floaminal" })
+vim.api.nvim_create_user_command("Flominal", toggle_terminal, {})
+vim.keymap.set({"n", "t"}, "<leader>tt", toggle_terminal, { desc = "Toggle Flominal" })
