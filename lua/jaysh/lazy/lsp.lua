@@ -18,6 +18,6 @@ return {
 		})
         require("mason-lspconfig").setup({
             -- Mason-LSPConfig configs go in here.
-        }),
+        })
 	end
 }
