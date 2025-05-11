@@ -19,7 +19,7 @@ Most remaps are the same too, I use dvorak btw.
 - Mason
 - LSPs
 - Trouble
-- Flominal
+- Flominal (Thanks, TJ)
 
 ## Future Plans
 
