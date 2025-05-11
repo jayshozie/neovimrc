@@ -41,6 +41,7 @@ return {
             },
         }
 
+        vim.diagnostic.config({ virtual_text = true })
         vim.treesitter.language.register("templ", "templ")
     end
 }
