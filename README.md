@@ -15,6 +15,7 @@ Most remaps are the same too, I use dvorak btw.
 - [Fugitive](https://github.com/tpope/fugitive)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - LSPs
+- [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [Mason](https://github.com/mason-org/mason.nvim)
 - [Noice](https://github.com/folke/noice.nvim)
 - [Rabbit](https://github.com/voxelprismatic/rabbit.nvim)
@@ -26,11 +27,11 @@ Most remaps are the same too, I use dvorak btw.
 
 ## TODO
 
-- [ ] Fix the issues with Fugitive
-    - I constantly forget my keymaps, and I think I don't have everything I want.
-
 - [ ] Add Harpoon 
     - I'm waiting for Harpoon 2. I'll add that when it comes out. (If it ever does come out...)
+
+- [x] Fix the issues with Fugitive
+    - I constantly forgot my keymaps, so I unmapped them. I'm gonna use Flominal for git stuff.
 
 - [x] Add LSPs
     - [x] C/C++
