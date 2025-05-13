@@ -1,4 +1,4 @@
-require {
+return {
     'jayshozie/Flominal.nvim',
     branch = 'main',
     opts = {}
