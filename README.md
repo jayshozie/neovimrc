@@ -24,7 +24,7 @@ Most remaps are the same too, I use dvorak btw.
 - [Undotree](https://github.com/mbbill/undotree)
 
 
-## Future Plans
+## TODO
 
 - [ ] Fix the issues with Fugitive
     - I constantly forget my keymaps, and I think I don't have everything I want.
@@ -32,10 +32,8 @@ Most remaps are the same too, I use dvorak btw.
 - [ ] Add Harpoon 
     - I'm waiting for Harpoon 2. I'll add that when it comes out. (If it ever does come out...)
 
-
-### Done
-
 - [x] Add LSPs
     - [x] C/C++
     - [x] Lua
     - [x] Python
+    - Holy sh\*t this did a real long time.
