@@ -19,7 +19,7 @@ Most remaps are the same too, I use dvorak btw.
 - [Noice](https://github.com/folke/noice.nvim)
 - [Rabbit](https://github.com/voxelprismatic/rabbit.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Trouble](https://github.com/folke/trouble.nvim)
 - [Undotree](https://github.com/mbbill/undotree)
 
