@@ -14,8 +14,9 @@ Most remaps are the same too, I use dvorak btw.
 - [Flominal](https://github.com/jayshozie/Flominal.nvim) (Thanks, TJ)
 - [Fugitive](https://github.com/tpope/fugitive)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
-- [Mason](https://github.com/mason-org/mason.nvim)
 - LSPs
+- [Mason](https://github.com/mason-org/mason.nvim)
+- [Noice](https://github.com/folke/noice.nvim)
 - [Rabbit](https://github.com/voxelprismatic/rabbit.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
