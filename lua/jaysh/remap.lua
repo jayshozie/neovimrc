@@ -28,20 +28,22 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- Custom Terminal
-vim.api.nvim_create_autocmd('TermOpen', {
-    group = vim.api.nvim_create_augroup('custom-term-open', { clear = true }),
-    callback = function()
-        vim.opt.number = false
-        vim.opt.relativenumber = false
-    end,
-})
+-- vim.api.nvim_create_autocmd('TermOpen', {
+--     group = vim.api.nvim_create_augroup('custom-term-open', { clear = true }),
+--     callback = function()
+--         vim.opt.number = false
+--         vim.opt.relativenumber = false
+--     end,
+-- })
 vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>")
-vim.keymap.set("n", "<leader>nt", function()
-    vim.cmd.vnew()
-    vim.cmd.term()
-    vim.cmd.wincmd("J")
-    vim.api.nvim_win_set_height(0, 15)
-end)
+
+-- I'm using Flominal now.
+-- vim.keymap.set("n", "<leader>nt", function()
+--     vim.cmd.vnew()
+--     vim.cmd.term()
+--     vim.cmd.wincmd("J")
+--     vim.api.nvim_win_set_height(0, 15)
+-- end)
 
 -- greatest remap ever
 -- vim.keymap.set("x", "<leader>p", [["_dP]])
