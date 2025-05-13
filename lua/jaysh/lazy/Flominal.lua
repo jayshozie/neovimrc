@@ -1,5 +1,7 @@
 return {
     'jayshozie/Flominal.nvim',
     branch = 'main',
-    opts = {}
+    opts = {
+        -- I'm using the defaults of my plugin, obviously.
+    }
 }
