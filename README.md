@@ -36,4 +36,4 @@ Most remaps are the same too, I use dvorak btw.
     - [x] C/C++
     - [x] Lua
     - [x] Python
-    - Holy sh\*t this did a real long time.
+    - Holy sh\*t this took a really long time.
