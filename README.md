@@ -29,8 +29,7 @@ Most remaps are the same too, I use dvorak btw.
     - I constantly forget my keymaps, and I think I don't have everything I want.
 
 - [ ] Add Harpoon 
-    > I'm waiting for Harpoon 2. I'll add that when it comes out.
-    > (If it ever does come out...)
+    - I'm waiting for Harpoon 2. I'll add that when it comes out. (If it ever does come out...)
 
 
 ### Done
