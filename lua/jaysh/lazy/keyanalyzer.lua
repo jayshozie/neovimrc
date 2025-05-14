@@ -1,6 +1,6 @@
 return {
     "jayshozie/key-analyzer.nvim",
-    branch = "dvorak-support",
+    branch = "uppercase-layout",
     config = function()
         require("key-analyzer").setup({
         -- Name of the command to use for the plugin
