@@ -15,14 +15,14 @@ return {
 --        vim.keymap.set("n", "<leader>gd", ":Gdiffsplit<CR>", { desc = "Git diff" })
 
         -- Optional: Add with specific file/path
-        vim.keymap.set("n", "<leader>gaf", ":Git add ", { desc = "Git add (specify path)" })
+        -- vim.keymap.set("n", "<leader>gaf", ":Git add ", { desc = "Git add (specify path)" })
 
         -- Optional: Add push with upstream setting
-        vim.keymap.set("n", "<leader>gpt", ":Git push -u origin ", { desc = "Push and set upstream" })
+        -- vim.keymap.set("n", "<leader>gpt", ":Git push -u origin ", { desc = "Push and set upstream" })
 
         -- Diff mappings (for merge conflicts)
-        vim.keymap.set("n", "gu", ":diffget //2<CR>", { desc = "Get diff from left (upstream)" })
-        vim.keymap.set("n", "gh", ":diffget //3<CR>", { desc = "Get diff from right (head)" })
+        -- vim.keymap.set("n", "gu", ":diffget //2<CR>", { desc = "Get diff from left (upstream)" })
+        -- vim.keymap.set("n", "gh", ":diffget //3<CR>", { desc = "Get diff from right (head)" })
 
         -- Create autocmd group for fugitive buffer-specific mappings
         local jaysh_Fugitive = vim.api.nvim_create_augroup("jaysh_Fugitive", { clear = true })
