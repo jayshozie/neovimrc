@@ -115,5 +115,15 @@ fi
 alias nv='nvim .'
 alias ll='ls -lAh'
 alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alies g='git'
+alias gs='git status'
+alies ga='git add .'
+alias gcm='git commit -m'
+alias gco='git checkout'
+alias gv='git branch -vv'
 
 eval "$(starship init bash)"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

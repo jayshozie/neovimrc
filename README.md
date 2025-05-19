@@ -1,17 +1,21 @@
 # jayshozie's Dotfiles
 
-Parts of my Neovim setup are yanked from The Primeagen and TJ DeVries.
-Most remaps are the same too, I use dvorak btw.
+Parts of my Neovim setup are yanked from
+[The Primeagen](https://github.com/theprimeagen) and
+[TJ DeVries](https://github.com/tjdevries). Thanks, guys, I wouldn't be using
+Neovim if it wasn't for you. You made it possible to just jump into Neovim
+and start using it.
 
+[!] Most remaps are for dvorak, I use dvorak btw.
 
 ## Info
 
-- Plugin Manager: Lazy
-
+- Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ### Plugins
 
-- [Flominal](https://github.com/jayshozie/Flominal.nvim) (Thanks, TJ)
+- [Flominal](https://github.com/jayshozie/Flominal.nvim) (Thanks, TJ, for the
+    starting point.)
 - [Fugitive](https://github.com/tpope/fugitive)
 - [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - LSPs
@@ -27,11 +31,16 @@ Most remaps are the same too, I use dvorak btw.
 
 ## TODO
 
+- [ ] There is an issue with LSPs, lua_ls steals focus. I need to figure out
+    how to fix this.
+
 - [ ] Add Harpoon 
     - I'm waiting for Harpoon 2. I'll add that when it comes out. (If it ever does come out...)
 
 - [x] Fix the issues with Fugitive
-    - I constantly forgot my keymaps, so I unmapped them. I'm gonna use Flominal for git stuff.
+    - I constantly forgot my keymaps, so I unmapped them.
+    I'm gonna use Flominal for git stuff, I may completely remove Fugitive in
+    the future. I don't want to think about by dotfiles for some time.
 
 - [x] Add LSPs
     - [x] C/C++
