@@ -227,7 +227,7 @@ return {
         require("mason-lspconfig").setup({
             ensure_installed = {
                 "lua_ls",
-                "pylsp",
+                "harper_ls",
             },
             handlers = {
                 function(server_name)
