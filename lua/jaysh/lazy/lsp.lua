@@ -53,7 +53,7 @@ return {
             -- Signature help (shows function parameters)
             if client.server_capabilities.signatureHelpProvider then
                 vim.keymap.set("n", "<C-k>", function() vim.lsp.buf.signature_help() end, opts)
-                vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
+                -- vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
             end
 
             -- Navigation
